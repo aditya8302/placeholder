@@ -1,0 +1,32 @@
+#nav{
+    display: flex;
+    justify-content: flex-end;
+    width:95vw;
+    margin:auto;
+    align-items: flex-end;
+}
+.avatar-name{
+  align-self: start;
+  padding-top: 40px;
+}
+
+.avatar{
+  cursor: pointer;
+}
+
+.logout-button{
+  width: 5vw;
+  min-width: 10px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  color:white;
+  font-size: 0.8em;
+  background-color: #5492cd;
+  border: 0px solid blue;
+  box-shadow:3px 2px 6px 0px rgba(13, 14, 34, 0.3);
+  cursor: pointer;
+}
+
+/* . */

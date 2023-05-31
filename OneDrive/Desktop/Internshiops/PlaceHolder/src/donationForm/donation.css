@@ -1,0 +1,16 @@
+#donation{
+  background: linear-gradient(#00d2ff 0%, #5492cd 100%);
+  width:100vw;
+  min-height:100vh;
+  margin:0%;
+  padding: 0%;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.donation-heading{
+    font-size: 1.5em;
+    margin: 20px;
+}

@@ -1,0 +1,12 @@
+.feed-grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin:auto;
+}
+
+.feed-heading{
+    font-size:3em;
+    margin-left:13vw;
+    margin-top: 3vh;
+}

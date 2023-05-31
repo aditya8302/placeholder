@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 0%;
+  width: 100%;
+  height: 5vh;
+  color: black;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background-color: #00d2ff;
+}
+
+.support {
+  color: black;
+  height: auto;
+  width: 100%;
+  display: flexbox;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  background-color: white;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #3d7bb4;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 10px;
+  /* text decoration underline */
+  text-decoration: 3px underline #3d7bb4;
+}
+
+.card-wrapper {
+  text-align: left;
+  display: flex;
+  font-weight: bold;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  width: 20vw;
+  height: 20vh;
+  margin: 10px;
+  padding-right: 80px;
+  background-color: white;
+  padding-top: 20px;
+}
+
+.card:nth-child(1) {
+  width: 40vw;
+  padding-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #0084ff;
+  font-weight: 900;
+}
+
+
+/* mobile media query */
+@media only screen and (max-width: 480px) {
+  h3 {
+    font-size: 16px;
+  }
+  .support {
+    height: 50vh;
+  }
+  .footer {
+    font-size: 12px;
+  }
+  .card {
+    width: 100vw;
+    margin: 0px;
+    height: auto;
+    padding: 20px;
+    padding-bottom: 0;
+  }
+  .card:nth-child(1) {
+    width: 100vw;
+  }
+  .card:nth-child(3) {
+    padding-bottom: 20px;
+  }
+  .card > h2 {
+    font-size: 18px;
+  }
+  .card p {
+    font-size: 3.3vw;
+  }
+}

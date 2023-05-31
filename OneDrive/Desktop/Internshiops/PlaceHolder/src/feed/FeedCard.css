@@ -1,0 +1,43 @@
+.FeedCard{
+    display:flex;
+    width:300px;
+    height: 200px;
+    padding:20px;
+    border-radius: 10px;
+    margin:5vh 30px;
+    background-color: ghostwhite;
+    box-shadow: 0px 0px 50px 6px rgba(13, 14, 34, 0.3);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(20px);
+    transition: ease 0.5s;
+    justify-content: space-between;
+}
+
+.feedcard-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.feedcard-button{
+  align-self: flex-end;
+  width: 8vw;
+  min-width: 50px;
+  padding: 10px;
+  margin: 10px;
+  height:40px;
+  border-radius: 5px;
+  color:white;
+  font-size: 1em;
+  background-color: #5492cd;
+  border: 0px solid blue;
+  box-shadow:4px 6px 9px 1px rgba(13, 14, 34, 0.3);
+  cursor: pointer;
+}
+
+.feedcard-resturant{
+    font-size: 1.2em;
+    text-overflow: clip;
+    overflow: visible;
+    white-space: nowrap;
+}
